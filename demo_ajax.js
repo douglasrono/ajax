@@ -3,6 +3,6 @@ function loadDoc() {
   xhttp.onload = function() {
     document.getElementById("demo").innerHTML = this.responseText;
     }
-  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.open("GET", "index.html", true);
   xhttp.send();
 }
